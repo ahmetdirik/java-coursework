@@ -1,3 +1,3 @@
-# Conditionals and Loops
+# Control Flow
 
-If-else statements, switch-case, while loops, for loops, do-while loops, break and continue. Practical skills for decision-making and repetition.
+Programs exploring if-else statements, switch-case decisions, and loop structures including for, while, and do-while loops. These exercises reinforce decision-making and iteration concepts.

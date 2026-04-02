@@ -1,3 +1,3 @@
-# Arrays and Methods
+# Arrays & Methods
 
-Array declaration, initialization, accessing elements, mechanics of for-each loops, multidimensional arrays. Introducing methods as tools for organizing code.
+Exercises with 1D and 2D arrays, static method declarations, method overloading, and algorithms like linear search. Covers fundamentals of data organization and code reusability.

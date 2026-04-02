@@ -1,3 +1,3 @@
 # Java Fundamentals
 
-Basic Java syntax, data types (primitive and reference), literals, variables, string concatenation, input/output operations, and command-line arguments.
+Basic Java programs demonstrating variables, data types, Scanner input, and simple class structures. These are introductory exercises covering the building blocks of Java programming.

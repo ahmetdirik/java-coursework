@@ -1,3 +1,3 @@
-# GUI Programming with Swing and AWT
+# GUI Programming
 
-Building graphical user interfaces (GUI) using Swing and AWT frameworks. Covers components, event handling, layout managers, and window operations.
+Building graphical user interfaces using AWT and Swing components, event handling, and layout managers. Demonstrates creating interactive desktop applications with visual interfaces.

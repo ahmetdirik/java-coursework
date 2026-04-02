@@ -10,18 +10,16 @@ public class Device2 {
 	
 	public void Default() {
 		this.name="Default";
-		this.age=0;
+		this.age=4;
 	}
-	
-	public void display() {
-		System.out.println("Device: " + name + ", Age: " + age);
+	public void displayInfo () {
+		System.out.printf("Name: %s , Memory: %d%n" ,name,age );
 	}
-	
 	public static void main(String[] args) {
-		Device2 d1 = new Device2("Phone", 2);
-		Device2 d2 = new Device2();
-		
-		d1.display();
-		d2.display();
+		Device2 sago = new Device2("Phone",8);
+		sago.displayInfo();
+		sago.Default();
+		sago.displayInfo();
 	}
+
 }

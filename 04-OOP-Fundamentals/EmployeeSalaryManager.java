@@ -80,7 +80,7 @@ public class EmployeeSalaryManager {
 			return "You are perfect, keep going!";
 		case "Good":
 			return "You are making good job!";
-	case "Average":
+		case "Average":
 			return "You are not bad but you can develop yourself!";
 		default:
 			return "With enough effort, you can achieve anything you want.";
@@ -92,14 +92,14 @@ public class EmployeeSalaryManager {
 	
 	public void printEmployee() {
 		System.out.println(name + "'s total salary: " + totalSalary);
-		System.out.println(name + "'s Performance level: "  + getPerformanceLevel());
+		System.out.println(name + "'s Performance level: " + getPerformanceLevel());
 		System.out.println(getMotivationSentence());
 	}
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner (System.in);
 		
-		for (int i=-1; i < employeeCount ;i++) {
+		for (int i=-1; i< employeeCount ;i++) {
 			System.out.print("Please enter name: ");
 			String name = scanner.nextLine();
 			 System.out.print("Please enter base salary: ");
@@ -115,7 +115,7 @@ public class EmployeeSalaryManager {
 		}
 		
 		
-		
+	
 		
 	}
 

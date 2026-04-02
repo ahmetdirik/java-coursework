@@ -1,3 +1,3 @@
-# Inheritance and Polymorphism
+# Inheritance & Polymorphism
 
-Extending classes, overriding methods, method overloading, super keyword, and dynamic dispatch. Foundation for object-oriented design.
+Programs demonstrating class hierarchies, inheritance relationships, method overriding, and polymorphic behavior through arrays and references. Extends OOP concepts for code organization and flexibility.

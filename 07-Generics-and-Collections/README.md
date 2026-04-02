@@ -1,3 +1,3 @@
-# Generics and Collections
+# Generics & Collections
 
-type-safe programming, the Collections Framework, generic classes, ArrayList, HashMap, HashSet, Iterators, Enumerations. Common patterns in Java applications.
+Programs using generic classes, ArrayList, LinkedList, and other type-safe collection frameworks. Shows how to write reusable code that works with different data types safely.

@@ -1,20 +1,33 @@
 
 public class Vehicle2 {
 
-	protected String brand;
-	protected int year;
-
-	public Vehicle2(String brand, int year) {
-		this.brand = brand;
-		this.year = year;
+	 void displaySpeed(){
+		
 	}
-
-	public void display() {
-		System.out.println("Brand: " + brand + ", Year: " + year);
-	}
-
 	public static void main(String[] args) {
-		Vehicle2 vehicle = new Vehicle2("Toyota", 2022);
-		vehicle.display();
+		// TODO Auto-generated method stub
+		Vehicle2 bicycle = new Bicycle();
+		Vehicle2 car = new Car();
+		
+		Vehicle2[] vehicles = {car,bicycle};
+		
+		for (int i=0;i<vehicles.length;i++) {
+			vehicles[i].displaySpeed();
+		}
+	}
+
+}
+
+class Car extends Vehicle2{
+	@Override
+	void displaySpeed(){
+		System.out.println("Car speed: 120 km");
+	}
+}
+
+class Bicycle extends Vehicle2{
+	@Override
+	void displaySpeed(){
+		System.out.println("Bicycle speed: 25 km/h");
 	}
 }

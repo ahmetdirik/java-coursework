@@ -1,22 +1,26 @@
 
-// Üst / Agåi
-class Dayruthr {
-	public String greet() {
-		return "Hello From Parent";
-	}
+// Üst (Parent) sınıf
+class Animal {
+    String name;
+
+    public void makeSound() {
+        System.out.println("Some sound...");
+    }
 }
 
-// Cocub Class
-class Child extends Parent {
-	@override
-	public String greet() {
-		return"Hello From Child";
-	}
+// Alt (Child) sınıf, Animal sınıfından miras alıyor
+class Dog extends Animal {
+    public void makeSound() {
+        System.out.println("Bark");
+    }
 }
 
+// Kullanım
 public class Inheritance {
-	public static void main(String[] args) {
-		Parent obj = new Child();
-		System.out.println(obj.greet()); // Child's greet s called
-	}
+    public static void main(String[] args) {
+        Dog myDog = new Dog();
+        myDog.name = "Buddy";
+        System.out.println(myDog.name);  // Output: Buddy
+        myDog.makeSound();               // Output: Bark
+    }
 }

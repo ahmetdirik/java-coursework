@@ -1,3 +1,3 @@
-# Concurrency and Threads
+# Multithreading
 
-Introduction to thread management, runnable interface, thread lifecycle, synchronization, and concurrency controls. Essential for multi-threaded applications.
+Programs exploring thread creation, lifecycle management, synchronization, locks, semaphores, and deadlock prevention. Essential for building responsive and efficient concurrent applications.

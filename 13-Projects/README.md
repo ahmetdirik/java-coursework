@@ -1,5 +1,3 @@
 # Mini Projects
 
-Capstone projects that demonstrate how to build pieces of a complete application using various Java concepts.
-
-## Project List
+Capstone projects including a Calculator, number guessing game, and matrix multiplication simulator. Combines multiple concepts to build complete, functional applications.
